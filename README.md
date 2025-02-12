@@ -37,7 +37,7 @@ This Odoo module provides a hospital management system that allows users to:
 ## 🔧 Installation
 
 ### 1️⃣ Prerequisites
-- Odoo 14+ (Ensure your Odoo environment is set up)  
+- Odoo 17+ (Ensure your Odoo environment is set up)  
 - Python 3.x  
 - PostgreSQL  
 
