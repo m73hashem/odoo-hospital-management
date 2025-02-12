@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="the_medicines_from" model="ir.ui.view">
+        <field name="name">the.medicines.from</field>
+        <field name="model">the.medicines</field>
+        <field name="arch" type="xml">
+            <form>
+               <group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <field name="effective_material"/>
+                    </group>
+               </group>
+            </form>
+        </field>
+   </record>
+
+   <record id="the_medicines_tree" model="ir.ui.view">
+        <field name="name">the.medicines.tree</field>
+        <field name="model">the.medicines</field>
+        <field name="arch" type="xml">
+            <tree string="Prescription">
+                <field name="name" />
+                <field name="effective_material" />
+            </tree>
+        </field>
+   </record>
+
+   <record id="my_hospital.action_medicines" model="ir.actions.act_window">
+        <field name="name">medicines</field>
+        <field name="res_model">the.medicines</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                 Add the first medicine......
+            </p>
+        </field>
+   </record>
+</odoo>
