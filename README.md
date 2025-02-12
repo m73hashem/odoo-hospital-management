@@ -88,5 +88,5 @@ This project is licensed under the **MIT License**.
 ## 📩 Contact
 💡 **Need help or want to collaborate?**  
 📧 Email: [m73.hashem@gmail.com]  
-🔗 GitHub: [github.com/m73hashem]  
-🔗 LinkedIn: [linkedin.com/in/mahmoudhashem]  
+🔗 GitHub: [https://github.com/m73hashem]  
+🔗 LinkedIn: [https://www.linkedin.com/in/mahmoudhashem/]  
